@@ -77,13 +77,14 @@ body {
 }
 .sliderBox h3 span {
     display: block;
-    color:#f1ce65;
+    color:rgb(255, 255, 255);
 	
 }
 
 #sl1{
     background:url(../images/11.jpg) no-repeat 0px 0px;
 	background-size:cover;
+	background-blend-mode: darken;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -92,6 +93,7 @@ body {
 #sl2{
     background:url(../images/22.jpg) no-repeat 0px 0px;
 	background-size:cover;
+	background-blend-mode: darken;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;

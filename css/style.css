@@ -2,8 +2,9 @@
 html, body{
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-	background:#ffffff;
+	background:#333;
 	margin: 0;
+    color: #ccc
 }
 p,ul li,ol li,body a{
 	margin:0;
@@ -385,7 +386,7 @@ h3.agileinfo_sign  {
     text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color:#03A9F4;
+    color:#58eea8;
 }
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
@@ -418,7 +419,7 @@ a.navbar-brand i.fa.fa-truck {
     color: #222;
 }
 .navbar-brand {
-    height: 42px;
+    height: 50px;
     padding: 0;
     font-size: 1.2em;
     line-height: 43px;
@@ -427,10 +428,15 @@ a.navbar-brand i.fa.fa-truck {
 }
 .navbar-brand span {
     color: #fff;
-    background: #e72020;
-    padding: 0px 13px;
-	margin-right: 0.1em;
+    background: none;
+    padding: 0 15px;
+	margin-right: 0.4em;
 }
+
+.navbar-brand img{
+    margin: -20px;
+}
+
 .link-effect-2 a {
   overflow: hidden;
   font-weight: 400;
@@ -444,7 +450,7 @@ a.navbar-brand i.fa.fa-truck {
   transition: 0.3s;
 }
 .link-effect-2 a span::before {
-  color:#e72020;
+  color:#0d9736;
   position: absolute;
   top: 100%;
   content: attr(data-hover);
@@ -476,7 +482,7 @@ a.navbar-brand i.fa.fa-truck {
 .agile_short_dropdown > li > a:hover{
     color: #fff;
     text-decoration: none;
-    background-color:#e72020;
+    background-color:#0d9736;
 }
 
 .agileits-social.top_content {
@@ -493,7 +499,7 @@ a.navbar-brand i.fa.fa-truck {
     font-size: 16px;
 }
 .agileits-social a:hover {
-    color: #e72020;
+    color: #0d9736;
 }
 
 /*-- to-top --*/
@@ -549,7 +555,7 @@ button.close {
 } 
 .w3-headings-all h3,.typo-title h3{
 	font-size:3em;
-    color:#03A9F4;
+    color:#0d9736;
       font-weight: 500;
     text-align: center;
     margin-bottom:30px;
@@ -584,7 +590,7 @@ button.close {
 }
 .w3-about-grid-left h3 span,.w3-about-grid-right h3 span {
     margin-right: 0.5em;
-    color: #e72020;
+    color: #0d9736;
 }
 .about-breadcrumb{
 	padding:1em 0;
@@ -597,7 +603,7 @@ button.close {
 	text-transform:uppercase;
 }
 .about-breadcrumb ul li a{
-	color:#03A9F4;
+	color:#0d9736;
 	text-decoration:none;
 }
 .about-breadcrumb ul li a:hover{
@@ -649,7 +655,7 @@ button.close {
 	text-decoration:none;
 }
 .agile_event_grid1_pos ul li a:hover{
-	background:#e72020;
+	background:#0d9736;
 	color:#fff;
 }
 .agile_event_grid1_pos ul li a i{
@@ -663,7 +669,7 @@ button.close {
 	background:#f4f4f4;
 }
 .agileits_w3layouts_event_grid1:hover{
-	background:#e72020;
+	background:#0d9736;
 }
 .agileits_w3layouts_event_grid1 h5{
 	margin:1em 0;
@@ -812,7 +818,7 @@ p.w3l_sub_para_agile {
     letter-spacing: 2px;
 }
 .w3_agileits_about_grid_left ul li i {
-    color: #e72020;
+    color: #0d9736;
     padding-right: 1em;
 }
 .w3_agileits_about_grid_left span {
@@ -874,7 +880,7 @@ p.w3l_sub_para_agile {
   display: block;
   width: 70px;
   margin-left: 15px;
-  background: #e72020;
+  background: #0d9736;
   position: absolute;
   bottom: 0;
 }
@@ -941,7 +947,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
     text-transform: uppercase;
     font-weight: 600;
     margin: .5em 0;
-	    color: #00BCD4;
+	    color: #0d9736;
     letter-spacing: 1px;
 }
 .span1{
@@ -970,7 +976,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     overflow: hidden;
-    background: #e72020;
+    background: #0d9736;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -1011,7 +1017,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
 	-ms-transition: 0.5s all;	
 }
 .services-icon-info h5{
-    color: #e72020;
+    color: #0d9736;
     font-size: 1em;
     font-weight: 600;
     margin: 1em 0 0 0;
@@ -1028,13 +1034,13 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
 .services-icon-info h4 {
     margin: 1em 0 0 0;
     padding: 1em;
-    background: #e72020;
+    background: #0d9736;
     width: 42%;
     margin: 1em auto;
     border-radius:6%;
 }
 .services-icon-info h4:hover {
-    background:#03a9f4;
+    background:#0d9736;
 }
 .services-icon-info h4 a {
     text-decoration: none;
@@ -1047,7 +1053,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
 }
 .skills h4 {
     font-size: 2.5em;
-    color:#03A9F4;
+    color:#0d9736;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 0.8em;
 }  
@@ -1071,9 +1077,9 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
     border-right: 0;
 }
 .skills .nav-tabs > li.active > a, .skills .nav-tabs > li.active > a:hover, .skills .nav-tabs > li.active > a:focus {
-    color: #038292;
+    color: #0d9736;
     border-top-width: 3px;
-    border-top-color: #00bcd4;
+    border-top-color: #0d9736;
     border-bottom-color: transparent;
     background: rgb(146, 232, 243);
     margin-top: -1px;
@@ -1120,7 +1126,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
-	background:#e72020;
+	background:#0d9736;
 	margin-bottom: 2em;
 	-webkit-transition: width 1s;
 	transition: width 1s;
@@ -1195,18 +1201,18 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
 .w3-adv-right2-text p {
     font-size: 1em;
     margin-bottom: 2em;
-    color:#e72020;
+    color:#0d9736;
 }
 .w3-adv-right2-icons p i {
     font-size: 2em;
-    color: red;
+    color: #0d9736;
 }
 .w3-adv-right2 {
    padding: 4em 2em;
 }
 .w3-adv-right2-icons p i {
     font-size: 2em;
-    color: #e72020;
+    color: #0d9736;
     margin-right: 1em;
 }
 .w3-adv-right2-icons {
@@ -1261,7 +1267,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
     padding: 0 0 1em 0;
 }
 .subscribe {
-    background: #03a9f4;
+    background: #0d9736;
 }
 .agileits-title h6 {
     color: #fff;
@@ -1321,6 +1327,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
     top: 40% !important;
     background: url(../images/next1.png) no-repeat 0px 0px;
 	 background-size: 32px;
+    filter:saturate(10%);
 }
 
 .nbs-flexisel-nav-right {
@@ -1328,6 +1335,7 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
     top: 40% !important;
     background: url(../images/back1.png) no-repeat 0px 0px;
     background-size: 32px;
+    filter:saturate(10%);
 }
 .teaminfo{
 	padding:15px 15px 50px;
@@ -1389,7 +1397,7 @@ ul.top-links li a i.fa {
 
 .w3-footer-contact-left h3 {
     font-size: 2em;
-    color: #e72020;
+    color: #0d9736;
     margin-bottom: 0.3em;
 }
 .w3-footer-contact-left p {
@@ -1399,7 +1407,7 @@ ul.top-links li a i.fa {
 .w3-footer-contact-icon1 i {
     font-size: 1.5em;
     margin-bottom: 1em;
-	color:#e72020;
+	color: #0d9736;
 }
 .w3-footer-contact-info p {
     color: #000;
